@@ -1,0 +1,124 @@
+[
+  {
+    "name": "website_overview",
+    "dimensions": [
+      "date"
+    ],
+    "metrics": [
+      "activeUsers",
+      "newUsers",
+      "sessions",
+      "sessionsPerUser",
+      "averageSessionDuration",
+      "screenPageViews",
+      "screenPageViewsPerSession",
+      "bounceRate",
+      "engagementRate"
+    ]
+  },
+  {
+    "name": "traffic_sources",
+    "dimensions": [
+      "date",
+      "source",
+      "medium",
+      "sourcePlatform"
+    ],
+    "metrics": [
+      "activeUsers",
+      "newUsers",
+      "sessions",
+      "sessionsPerUser",
+      "averageSessionDuration",
+      "screenPageViews",
+      "screenPageViewsPerSession",
+      "bounceRate",
+      "engagementRate"
+    ]
+  },
+  {
+    "name": "locations",
+    "dimensions": [
+      "date",
+      "country",
+      "countryId",
+      "region",
+      "city",
+      "cityId"
+    ],
+    "metrics": [
+      "activeUsers",
+      "newUsers",
+      "sessions",
+      "sessionsPerUser",
+      "averageSessionDuration",
+      "screenPageViews",
+      "screenPageViewsPerSession",
+      "bounceRate",
+      "engagementRate"
+    ]
+  },
+  {
+    "name": "four_weekly_active_users",
+    "dimensions": [
+      "date"
+    ],
+    "metrics": [
+      "active28DayUsers"
+    ]
+  },
+  {
+    "name": "weekly_active_users",
+    "dimensions": [
+      "date"
+    ],
+    "metrics": [
+      "active7DayUsers"
+    ]
+  },
+  {
+    "name": "daily_active_users",
+    "dimensions": [
+      "date"
+    ],
+    "metrics": [
+      "active1DayUsers"
+    ]
+  },
+  {
+    "name": "devices",
+    "dimensions": [
+      "date",
+      "deviceCategory",
+      "deviceModel",
+      "operatingSystem",
+      "browser"
+    ],
+    "metrics": [
+      "activeUsers",
+      "newUsers",
+      "sessions",
+      "sessionsPerUser",
+      "averageSessionDuration",
+      "screenPageViews",
+      "screenPageViewsPerSession",
+      "bounceRate",
+      "engagementRate"
+    ]
+  },
+  {
+    "name": "transactions",
+    "dimensions": [
+      "date"
+      ],
+      "metrics": [
+      "activeUsers",
+      "averageRevenuePerUser",
+      "newUsers",
+      "purchaseRevenue",
+      "sessions",
+      "totalRevenue",
+      "transactions"
+      ]
+  }
+]
